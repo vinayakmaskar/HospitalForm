@@ -1,0 +1,107 @@
+
+.whole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.innerdiv{
+   
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 5px;
+}
+
+.headings{
+    width: 100%;
+    text-align: center;
+   
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.inputbox{
+    border-radius: 5px;
+    padding: 3px;
+    border-color: #DFD3C3;
+}
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    
+}
+
+h1{
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+    /* text-decoration: underline; */
+    text-shadow: 2px 2px 3px grey;
+}
+
+
+.lastbutton{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.hospForm{
+
+    width: 60%;
+    
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #F5F5F5; */
+    box-shadow: 3px 3px 5px #E8E2E2;
+    border-radius: 20px;
+    border: 2px solid #DDDDDD;
+    
+}
+
+.docdetail{
+   
+    /* font-weight: bold; */
+    font-weight: 600;
+    margin-bottom: 100px;
+    font-size: 17px;
+    color: #334257;
+
+}
+
+.docdiv{
+    margin: 15px;
+}
+
+.cont{
+    background-color: #F5F5F5;
+    box-shadow: 3px 3px 5px #E8E2E2;
+    
+    margin-top: 30px;
+    padding: 40px;
+    width: 25%;
+    
+    
+}
+
+.delbutton{
+    text-align: center;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding:20px;
+    width: 60%;
+}
